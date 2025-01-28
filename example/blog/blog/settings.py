@@ -147,7 +147,7 @@ CKEDITOR_5_CONFIGS = {
         ],
     },
     "comment": {
-        "language": {"ui": "en", "content": "ar"},
+        "language": {"ui": "en", "content": "en"},
         "toolbar": [
             "heading",
             "|",
@@ -160,7 +160,7 @@ CKEDITOR_5_CONFIGS = {
         ],
     },
     "extends": {
-        "language": "ru",
+        "language": "en",
         "blockToolbar": [
             "paragraph",
             "heading1",
@@ -214,6 +214,7 @@ CKEDITOR_5_CONFIGS = {
                 "showBlocks",
                 "selectAll",
                 "findAndReplace",
+                "audio",
             ],
             "shouldNotGroupWhenFull": True,
         },
